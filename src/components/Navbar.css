@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding:0;
+}
+ .NavBar{
+  height: 80px;
+  width: 100%;
+  /* border: 1px solid black; */
+  box-sizing: border-box;
+  box-shadow: 1px 1px 10px;
+  display:flex;
+  flex-direction: row;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    /* border: 1px solid black;  */
+    /* justify-self: start; */
+}
+.textLogo{
+    margin-top: -60px;
+    margin-left: 90px;
+    color: aqua;
+    justify-self: auto;
+}
+.userName{
+    margin-top: -40px;
+    margin-left: 1600%;
+}
